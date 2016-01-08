@@ -35,7 +35,7 @@ epc$Global_reactive_power <- as.numeric(paste(epc$Global_reactive_power))
 epc$Voltage <- as.numeric(paste(epc$Voltage))
 
 ## Plot 4
-par(mfrow = c(2, 2), mar=c(4, 4, 2, 1), omc=c(0, 0, 2, 0))
+par(mfrow = c(2, 2), mar=c(4, 4, 2, 1), omc=c(0, 0, 2, 0), cex=0.7)
 
 with(epc, 
      {
