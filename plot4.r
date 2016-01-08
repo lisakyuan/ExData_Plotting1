@@ -26,7 +26,7 @@ rm(data)
 datetime <- paste(as.Date(epc$Date), epc$Time)
 epc$Datetime <- as.POSIXct(datetime)
 
-##Convert Ffactor Date to Numeric Data for Plotting.
+##Convert factor Data to Numeric Data for Plotting.
 epc$Global_active_power <- as.numeric(paste(epc$Global_active_power))
 epc$Sub_metering_1 <- as.numeric(paste(epc$Sub_metering_1))
 epc$Sub_metering_2 <- as.numeric(paste(epc$Sub_metering_2))
